@@ -1,0 +1,86 @@
+/* ===== TOP BAR ===== */
+.top-bar {
+  width: 100%;
+  height: 50px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid black;
+}
+
+.top-bar h1 {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+/* ===== BODY ===== */
+body {
+  margin: 0;
+  background: #f4f4f4;
+  font-family: "Arial", sans-serif;
+}
+
+/* ===== PANEL ===== */
+.panel {
+  width: 450px;
+  margin: 50px auto;
+  background: white;
+  padding: 40px 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ===== FORM ===== */
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background: #fafafa;
+  transition: 0.25s;
+  font-size: 14px;
+}
+
+input:focus {
+  background: #ffffff;
+  border-color: #555;
+}
+
+/* ===== BUTTON ===== */
+button {
+  width: 100%;
+  margin-top: 30px;
+  padding: 14px 10px;
+  background: black;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 6px;
+  transition: 0.25s;
+  font-weight: 600;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
+
+/* ===== RESULT BLOCK ===== */
+#result {
+  margin-top: 25px;
+  font-size: 15px;
+}

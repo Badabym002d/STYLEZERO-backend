@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>NOIR — Створення Оплати</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+
+  <!-- Чорна верхня панель -->
+  <div class="top-bar">
+    <h1>NOIR</h1>
+  </div>
+
+  <!-- Контейнер форми -->
+  <div class="panel">
+
+    <label>Order ID:</label>
+    <input id="orderId" placeholder="Напр. ORDER_001" />
+
+    <label>Сума (грн):</label>
+    <input id="amount" placeholder="8700" type="number" />
+
+    <label>Опис товару:</label>
+    <input id="description" placeholder="ASICS Gel-NYC Smoke Grey" />
+
+    <label>Телефон клієнта:</label>
+    <input id="phone" placeholder="+380..." />
+
+    <button onclick="createPayment()">Створити оплату</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
